@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +15,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="sLx-TO-YlE">
+                                <rect key="frame" x="44" y="193.5" width="287" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="280" id="1A4-sU-fEs"/>
+                                    <constraint firstAttribute="width" constant="287" id="40U-qH-br6"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="280" id="L82-ZX-HAR"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="T5a-8V-aXd"/>
+                                    <constraint firstAttribute="height" constant="280" id="ay4-zi-vyX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="pST-TN-HUW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="193.5" id="0F8-MA-ajS"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="sLx-TO-YlE" secondAttribute="bottom" constant="193.5" id="DX7-OQ-bzv"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="sLx-TO-YlE" secondAttribute="trailing" constant="44" id="Kfs-fo-HkO"/>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="N8C-k7-iMb"/>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RHI-Gb-Xqj"/>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="44" id="icL-1g-hky"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="sLx-TO-YlE" secondAttribute="trailing" constant="44" id="kqe-Hs-G3J"/>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="193.5" id="tHx-uJ-rtt"/>
+                            <constraint firstItem="sLx-TO-YlE" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="44" id="ub2-3r-8Bh"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="sLx-TO-YlE" secondAttribute="bottom" constant="193.5" id="wt2-fy-C5G"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
                 </viewController>
@@ -26,4 +49,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TwitterLogoBlue" width="200" height="200"/>
+    </resources>
 </document>
