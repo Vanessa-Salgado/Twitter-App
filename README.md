@@ -23,8 +23,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![Twitter](https://user-images.githubusercontent.com/26905586/138607456-9bf77e93-5663-464e-97e5-1cfd50632730.gif)
+![newTwitterGif](https://user-images.githubusercontent.com/26905586/138632000-7045999c-c83f-499e-a5d5-0cd54aad66a9.gif)
 
 
 # Twitter-App
