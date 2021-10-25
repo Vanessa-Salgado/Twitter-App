@@ -23,7 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![newTwitterGif](https://user-images.githubusercontent.com/26905586/138632000-7045999c-c83f-499e-a5d5-0cd54aad66a9.gif)
-
-
-# Twitter-App
+![FinalTwitterGif](https://user-images.githubusercontent.com/26905586/138632949-47b7f6e0-df77-49dd-a2b1-cc4e83190a27.gif)
